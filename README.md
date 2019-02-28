@@ -10,8 +10,9 @@ Enjoy<br>
 1. Open /etc/mysql/my.cnf<br>
 2. Scroll to the bottom of file<br>
 3. Insert this code and save.<br>
-[mysqld]
-sql_mode = STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION<br>
+<code>
+ [mysqld]
+sql_mode = STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION</code><br>
 4. Type sudo service mysql restart to restart MySQL
 
 <h2>App Info</h2>
